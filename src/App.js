@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   let url = process.env.REACT_APP_VERCEL_URL;
   console.log("git provider", process.env.REACT_APP_VERCEL_GIT_PROVIDER);
+  console.log("author", process.env.REACT_APP_VERCEL_GIT_COMMIT_AUTHOR_NAME);
 
   return (
     <div className="App">
